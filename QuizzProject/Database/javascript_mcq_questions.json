@@ -1,0 +1,442 @@
+[
+  {
+    "question": "Which of the following is a primitive data type in JavaScript?",
+    "answers": [
+      {
+        "text": "Object",
+        "correct": false
+      },
+      {
+        "text": "Array",
+        "correct": false
+      },
+      {
+        "text": "String",
+        "correct": true
+      },
+      {
+        "text": "Function",
+        "correct": false
+      }
+    ],
+    "hint": "It represents textual data."
+  },
+  {
+    "question": "What will be the output of `typeof null` in JavaScript?",
+    "answers": [
+      {
+        "text": "'object'",
+        "correct": true
+      },
+      {
+        "text": "'null'",
+        "correct": false
+      },
+      {
+        "text": "'undefined'",
+        "correct": false
+      },
+      {
+        "text": "'number'",
+        "correct": false
+      }
+    ],
+    "hint": "This is a long-standing bug in JS."
+  },
+  {
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "answers": [
+      {
+        "text": "//",
+        "correct": true
+      },
+      {
+        "text": "/*",
+        "correct": false
+      },
+      {
+        "text": "#",
+        "correct": false
+      },
+      {
+        "text": "<!--",
+        "correct": false
+      }
+    ],
+    "hint": "It's two slashes."
+  },
+  {
+    "question": "What does `NaN` stand for in JavaScript?",
+    "answers": [
+      {
+        "text": "No actual Number",
+        "correct": false
+      },
+      {
+        "text": "Not a Null",
+        "correct": false
+      },
+      {
+        "text": "Not a Number",
+        "correct": true
+      },
+      {
+        "text": "Number and Null",
+        "correct": false
+      }
+    ],
+    "hint": "It appears in invalid math operations."
+  },
+  {
+    "question": "Which method is used to print messages in the browser console?",
+    "answers": [
+      {
+        "text": "console.log()",
+        "correct": true
+      },
+      {
+        "text": "log.console()",
+        "correct": false
+      },
+      {
+        "text": "print()",
+        "correct": false
+      },
+      {
+        "text": "display()",
+        "correct": false
+      }
+    ],
+    "hint": "It's used frequently during debugging."
+  },
+  {
+    "question": "How do you declare a variable in ES6?",
+    "answers": [
+      {
+        "text": "let",
+        "correct": true
+      },
+      {
+        "text": "var",
+        "correct": false
+      },
+      {
+        "text": "constant",
+        "correct": false
+      },
+      {
+        "text": "define",
+        "correct": false
+      }
+    ],
+    "hint": "It supports block scope."
+  },
+  {
+    "question": "Which method converts JSON data to a JavaScript object?",
+    "answers": [
+      {
+        "text": "JSON.parse()",
+        "correct": true
+      },
+      {
+        "text": "JSON.stringify()",
+        "correct": false
+      },
+      {
+        "text": "JSON.toObject()",
+        "correct": false
+      },
+      {
+        "text": "JSON.convert()",
+        "correct": false
+      }
+    ],
+    "hint": "It parses a JSON string."
+  },
+  {
+    "question": "What will `Boolean('')` return?",
+    "answers": [
+      {
+        "text": "true",
+        "correct": false
+      },
+      {
+        "text": "false",
+        "correct": true
+      },
+      {
+        "text": "undefined",
+        "correct": false
+      },
+      {
+        "text": "null",
+        "correct": false
+      }
+    ],
+    "hint": "Empty string is falsy."
+  },
+  {
+    "question": "Which of the following is used to iterate over object properties?",
+    "answers": [
+      {
+        "text": "for...in",
+        "correct": true
+      },
+      {
+        "text": "for...of",
+        "correct": false
+      },
+      {
+        "text": "forEach()",
+        "correct": false
+      },
+      {
+        "text": "map()",
+        "correct": false
+      }
+    ],
+    "hint": "It's used for keys in objects."
+  },
+  {
+    "question": "What is the correct syntax to create a function?",
+    "answers": [
+      {
+        "text": "function myFunc()",
+        "correct": true
+      },
+      {
+        "text": "def myFunc()",
+        "correct": false
+      },
+      {
+        "text": "func myFunc()",
+        "correct": false
+      },
+      {
+        "text": "create function myFunc()",
+        "correct": false
+      }
+    ],
+    "hint": "It starts with 'function'."
+  },
+  {
+    "question": "Which operator is used to assign a value?",
+    "answers": [
+      {
+        "text": "=",
+        "correct": true
+      },
+      {
+        "text": "==",
+        "correct": false
+      },
+      {
+        "text": "===",
+        "correct": false
+      },
+      {
+        "text": "!=",
+        "correct": false
+      }
+    ],
+    "hint": "It's a single character."
+  },
+  {
+    "question": "What is the result of `2 + '2'`?",
+    "answers": [
+      {
+        "text": "'22'",
+        "correct": true
+      },
+      {
+        "text": "4",
+        "correct": false
+      },
+      {
+        "text": "undefined",
+        "correct": false
+      },
+      {
+        "text": "NaN",
+        "correct": false
+      }
+    ],
+    "hint": "JS does type coercion here."
+  },
+  {
+    "question": "What does `===` do in JavaScript?",
+    "answers": [
+      {
+        "text": "Compares value and type",
+        "correct": true
+      },
+      {
+        "text": "Assigns value",
+        "correct": false
+      },
+      {
+        "text": "Compares only value",
+        "correct": false
+      },
+      {
+        "text": "Compares only type",
+        "correct": false
+      }
+    ],
+    "hint": "Strict equality."
+  },
+  {
+    "question": "Which of these is NOT a JavaScript loop?",
+    "answers": [
+      {
+        "text": "for",
+        "correct": false
+      },
+      {
+        "text": "while",
+        "correct": false
+      },
+      {
+        "text": "repeat",
+        "correct": true
+      },
+      {
+        "text": "do...while",
+        "correct": false
+      }
+    ],
+    "hint": "It's not valid JS syntax."
+  },
+  {
+    "question": "Which of these is a falsy value?",
+    "answers": [
+      {
+        "text": "0",
+        "correct": true
+      },
+      {
+        "text": "'0'",
+        "correct": false
+      },
+      {
+        "text": "[]",
+        "correct": false
+      },
+      {
+        "text": "{}",
+        "correct": false
+      }
+    ],
+    "hint": "Numeric zero is falsy."
+  },
+  {
+    "question": "What does `setTimeout()` do?",
+    "answers": [
+      {
+        "text": "Executes a function after a delay",
+        "correct": true
+      },
+      {
+        "text": "Stops a function",
+        "correct": false
+      },
+      {
+        "text": "Repeats function continuously",
+        "correct": false
+      },
+      {
+        "text": "Executes function immediately",
+        "correct": false
+      }
+    ],
+    "hint": "It's used for delay execution."
+  },
+  {
+    "question": "Which function removes the last element of an array?",
+    "answers": [
+      {
+        "text": "pop()",
+        "correct": true
+      },
+      {
+        "text": "shift()",
+        "correct": false
+      },
+      {
+        "text": "splice()",
+        "correct": false
+      },
+      {
+        "text": "unshift()",
+        "correct": false
+      }
+    ],
+    "hint": "It removes from the end."
+  },
+  {
+    "question": "Which keyword is used to handle errors?",
+    "answers": [
+      {
+        "text": "try",
+        "correct": false
+      },
+      {
+        "text": "catch",
+        "correct": false
+      },
+      {
+        "text": "try...catch",
+        "correct": true
+      },
+      {
+        "text": "error",
+        "correct": false
+      }
+    ],
+    "hint": "It has two parts."
+  },
+  {
+    "question": "Which of the following is not a JavaScript data type?",
+    "answers": [
+      {
+        "text": "String",
+        "correct": false
+      },
+      {
+        "text": "Boolean",
+        "correct": false
+      },
+      {
+        "text": "Float",
+        "correct": true
+      },
+      {
+        "text": "Undefined",
+        "correct": false
+      }
+    ],
+    "hint": "JS doesn't have this keyword as type."
+  },
+  {
+    "question": "How do you write an arrow function?",
+    "answers": [
+      {
+        "text": "() => {}",
+        "correct": true
+      },
+      {
+        "text": "=> () {}",
+        "correct": false
+      },
+      {
+        "text": "function => ()",
+        "correct": false
+      },
+      {
+        "text": "() -> {}",
+        "correct": false
+      }
+    ],
+    "hint": "It's concise syntax."
+  }
+]

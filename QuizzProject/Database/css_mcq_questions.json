@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "answers": [
+      {
+        "text": "Cascading Style Sheets",
+        "correct": true
+      },
+      {
+        "text": "Colorful Style Sheets",
+        "correct": false
+      },
+      {
+        "text": "Computer Style Sheets",
+        "correct": false
+      },
+      {
+        "text": "Creative Style Sheets",
+        "correct": false
+      }
+    ],
+    "hint": "It controls the look of web pages."
+  },
+  {
+    "question": "Which property is used to change the background color?",
+    "answers": [
+      {
+        "text": "background-color",
+        "correct": true
+      },
+      {
+        "text": "color",
+        "correct": false
+      },
+      {
+        "text": "bgcolor",
+        "correct": false
+      },
+      {
+        "text": "background",
+        "correct": false
+      }
+    ],
+    "hint": "It's a two-word property separated by a hyphen."
+  },
+  {
+    "question": "How do you select an element with id 'header' in CSS?",
+    "answers": [
+      {
+        "text": "#header",
+        "correct": true
+      },
+      {
+        "text": ".header",
+        "correct": false
+      },
+      {
+        "text": "header",
+        "correct": false
+      },
+      {
+        "text": "*header",
+        "correct": false
+      }
+    ],
+    "hint": "The symbol for id selectors."
+  },
+  {
+    "question": "Which CSS property controls the text size?",
+    "answers": [
+      {
+        "text": "font-size",
+        "correct": true
+      },
+      {
+        "text": "text-style",
+        "correct": false
+      },
+      {
+        "text": "font-style",
+        "correct": false
+      },
+      {
+        "text": "text-size",
+        "correct": false
+      }
+    ],
+    "hint": "It's related to font and size."
+  },
+  {
+    "question": "How do you make the text bold in CSS?",
+    "answers": [
+      {
+        "text": "font-weight: bold;",
+        "correct": true
+      },
+      {
+        "text": "text-style: bold;",
+        "correct": false
+      },
+      {
+        "text": "font-style: bold;",
+        "correct": false
+      },
+      {
+        "text": "text-weight: bold;",
+        "correct": false
+      }
+    ],
+    "hint": "It's about font weight."
+  },
+  {
+    "question": "Which property is used to change the font of an element?",
+    "answers": [
+      {
+        "text": "font-family",
+        "correct": true
+      },
+      {
+        "text": "font-style",
+        "correct": false
+      },
+      {
+        "text": "text-font",
+        "correct": false
+      },
+      {
+        "text": "text-family",
+        "correct": false
+      }
+    ],
+    "hint": "It's about the family of fonts."
+  },
+  {
+    "question": "How do you select all <p> elements in CSS?",
+    "answers": [
+      {
+        "text": "p",
+        "correct": true
+      },
+      {
+        "text": ".p",
+        "correct": false
+      },
+      {
+        "text": "#p",
+        "correct": false
+      },
+      {
+        "text": "*p",
+        "correct": false
+      }
+    ],
+    "hint": "Tag selector."
+  },
+  {
+    "question": "Which property controls the space between lines of text?",
+    "answers": [
+      {
+        "text": "line-height",
+        "correct": true
+      },
+      {
+        "text": "letter-spacing",
+        "correct": false
+      },
+      {
+        "text": "text-spacing",
+        "correct": false
+      },
+      {
+        "text": "word-spacing",
+        "correct": false
+      }
+    ],
+    "hint": "It's about line spacing."
+  },
+  {
+    "question": "What is the default position value of an element?",
+    "answers": [
+      {
+        "text": "static",
+        "correct": true
+      },
+      {
+        "text": "relative",
+        "correct": false
+      },
+      {
+        "text": "absolute",
+        "correct": false
+      },
+      {
+        "text": "fixed",
+        "correct": false
+      }
+    ],
+    "hint": "Default flow layout."
+  },
+  {
+    "question": "Which property is used to float elements?",
+    "answers": [
+      {
+        "text": "float",
+        "correct": true
+      },
+      {
+        "text": "position",
+        "correct": false
+      },
+      {
+        "text": "display",
+        "correct": false
+      },
+      {
+        "text": "clear",
+        "correct": false
+      }
+    ],
+    "hint": "It lets elements float left or right."
+  },
+  {
+    "question": "How do you add a comment in CSS?",
+    "answers": [
+      {
+        "text": "/* comment */",
+        "correct": true
+      },
+      {
+        "text": "// comment",
+        "correct": false
+      },
+      {
+        "text": "# comment",
+        "correct": false
+      },
+      {
+        "text": "<!-- comment -->",
+        "correct": false
+      }
+    ],
+    "hint": "It uses slash and asterisk."
+  },
+  {
+    "question": "Which property is used to change the text color?",
+    "answers": [
+      {
+        "text": "color",
+        "correct": true
+      },
+      {
+        "text": "background-color",
+        "correct": false
+      },
+      {
+        "text": "font-color",
+        "correct": false
+      },
+      {
+        "text": "text-color",
+        "correct": false
+      }
+    ],
+    "hint": "Simple color property."
+  },
+  {
+    "question": "What does the 'z-index' property do?",
+    "answers": [
+      {
+        "text": "Controls stacking order of elements",
+        "correct": true
+      },
+      {
+        "text": "Changes text size",
+        "correct": false
+      },
+      {
+        "text": "Sets element opacity",
+        "correct": false
+      },
+      {
+        "text": "Sets element position",
+        "correct": false
+      }
+    ],
+    "hint": "Higher value means element is on top."
+  },
+  {
+    "question": "How to make a list not display bullet points?",
+    "answers": [
+      {
+        "text": "list-style-type: none;",
+        "correct": true
+      },
+      {
+        "text": "list-type: none;",
+        "correct": false
+      },
+      {
+        "text": "bullet: none;",
+        "correct": false
+      },
+      {
+        "text": "list-bullet: none;",
+        "correct": false
+      }
+    ],
+    "hint": "Property related to list style."
+  },
+  {
+    "question": "Which property adds space inside an element, between content and border?",
+    "answers": [
+      {
+        "text": "padding",
+        "correct": true
+      },
+      {
+        "text": "margin",
+        "correct": false
+      },
+      {
+        "text": "border-spacing",
+        "correct": false
+      },
+      {
+        "text": "spacing",
+        "correct": false
+      }
+    ],
+    "hint": "Inside spacing."
+  },
+  {
+    "question": "Which property adds space outside an element, between element and others?",
+    "answers": [
+      {
+        "text": "margin",
+        "correct": true
+      },
+      {
+        "text": "padding",
+        "correct": false
+      },
+      {
+        "text": "border-spacing",
+        "correct": false
+      },
+      {
+        "text": "spacing",
+        "correct": false
+      }
+    ],
+    "hint": "Outside spacing."
+  },
+  {
+    "question": "How do you apply a style to elements with class 'container'?",
+    "answers": [
+      {
+        "text": ".container",
+        "correct": true
+      },
+      {
+        "text": "#container",
+        "correct": false
+      },
+      {
+        "text": "container",
+        "correct": false
+      },
+      {
+        "text": "*container",
+        "correct": false
+      }
+    ],
+    "hint": "Class selector."
+  },
+  {
+    "question": "Which property is used to make text italic?",
+    "answers": [
+      {
+        "text": "font-style: italic;",
+        "correct": true
+      },
+      {
+        "text": "text-style: italic;",
+        "correct": false
+      },
+      {
+        "text": "font-weight: italic;",
+        "correct": false
+      },
+      {
+        "text": "font-variant: italic;",
+        "correct": false
+      }
+    ],
+    "hint": "Font style property."
+  },
+  {
+    "question": "What is the default display value for a <div> element?",
+    "answers": [
+      {
+        "text": "block",
+        "correct": true
+      },
+      {
+        "text": "inline",
+        "correct": false
+      },
+      {
+        "text": "inline-block",
+        "correct": false
+      },
+      {
+        "text": "none",
+        "correct": false
+      }
+    ],
+    "hint": "Div is a block-level element."
+  },
+  {
+    "question": "Which CSS property is used to hide an element but keep its space?",
+    "answers": [
+      {
+        "text": "visibility: hidden;",
+        "correct": true
+      },
+      {
+        "text": "display: none;",
+        "correct": false
+      },
+      {
+        "text": "opacity: 0;",
+        "correct": false
+      },
+      {
+        "text": "hidden: true;",
+        "correct": false
+      }
+    ],
+    "hint": "Element is invisible but still takes space."
+  }
+]

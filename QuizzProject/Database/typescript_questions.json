@@ -1,0 +1,226 @@
+[
+  {
+    "question": "What is TypeScript?",
+    "answers": [
+      {
+        "text": "A superset of JavaScript that adds static typing",
+        "correct": true
+      },
+      {
+        "text": "A new programming language unrelated to JavaScript",
+        "correct": false
+      },
+      { "text": "A CSS preprocessor", "correct": false },
+      { "text": "A JavaScript library", "correct": false }
+    ],
+    "hint": "It enhances JavaScript with types."
+  },
+  {
+    "question": "How do you declare a variable with a specific type in TypeScript?",
+    "answers": [
+      { "text": "let name: string;", "correct": true },
+      { "text": "let name = string;", "correct": false },
+      { "text": "let name;", "correct": false },
+      { "text": "var name:string;", "correct": false }
+    ],
+    "hint": "Use colon followed by the type."
+  },
+  {
+    "question": "Which keyword is used to define an interface in TypeScript?",
+    "answers": [
+      { "text": "interface", "correct": true },
+      { "text": "class", "correct": false },
+      { "text": "type", "correct": false },
+      { "text": "implements", "correct": false }
+    ],
+    "hint": "Starts with 'inter'."
+  },
+  {
+    "question": "What is the purpose of 'any' type in TypeScript?",
+    "answers": [
+      {
+        "text": "Allows any type of value without type checking",
+        "correct": true
+      },
+      { "text": "Specifies no value allowed", "correct": false },
+      { "text": "Represents boolean values", "correct": false },
+      { "text": "Restricts to number type", "correct": false }
+    ],
+    "hint": "Disables strict typing for a variable."
+  },
+  {
+    "question": "How do you declare a function parameter as optional?",
+    "answers": [
+      { "text": "function fn(name?: string)", "correct": true },
+      { "text": "function fn(name: optional string)", "correct": false },
+      { "text": "function fn(optional name: string)", "correct": false },
+      { "text": "function fn(name: string?)", "correct": false }
+    ],
+    "hint": "Use a question mark after the parameter name."
+  },
+  {
+    "question": "Which of the following is NOT a valid basic TypeScript type?",
+    "answers": [
+      { "text": "text", "correct": true },
+      { "text": "string", "correct": false },
+      { "text": "boolean", "correct": false },
+      { "text": "number", "correct": false }
+    ],
+    "hint": "It's not a TypeScript primitive."
+  },
+  {
+    "question": "How do you define a tuple type in TypeScript?",
+    "answers": [
+      { "text": "let tuple: [string, number];", "correct": true },
+      { "text": "let tuple: (string, number);", "correct": false },
+      { "text": "let tuple: {string, number};", "correct": false },
+      { "text": "let tuple: <string, number>;", "correct": false }
+    ],
+    "hint": "Use square brackets."
+  },
+  {
+    "question": "Which TypeScript feature allows creating new types from existing ones?",
+    "answers": [
+      { "text": "Type Aliases", "correct": true },
+      { "text": "Interfaces", "correct": false },
+      { "text": "Classes", "correct": false },
+      { "text": "Enums", "correct": false }
+    ],
+    "hint": "It's called type aliasing."
+  },
+  {
+    "question": "What is the default access modifier for class members in TypeScript?",
+    "answers": [
+      { "text": "public", "correct": true },
+      { "text": "private", "correct": false },
+      { "text": "protected", "correct": false },
+      { "text": "readonly", "correct": false }
+    ],
+    "hint": "Members are accessible outside the class by default."
+  },
+  {
+    "question": "How do you specify that a variable cannot be reassigned in TypeScript?",
+    "answers": [
+      { "text": "Use 'const' keyword", "correct": true },
+      { "text": "Use 'let' keyword", "correct": false },
+      { "text": "Use 'readonly' keyword", "correct": false },
+      { "text": "Use 'immutable' keyword", "correct": false }
+    ],
+    "hint": "Same as in JavaScript."
+  },
+  {
+    "question": "Which syntax is used to define a generic function?",
+    "answers": [
+      { "text": "function identity<T>(arg: T): T {}", "correct": true },
+      { "text": "function identity(arg<T>): T {}", "correct": false },
+      { "text": "function identity<T>: T(arg) {}", "correct": false },
+      { "text": "function<T> identity(arg: T): T {}", "correct": false }
+    ],
+    "hint": "Generics use angle brackets."
+  },
+  {
+    "question": "What does the 'never' type represent in TypeScript?",
+    "answers": [
+      { "text": "A type that never occurs", "correct": true },
+      { "text": "Any value type", "correct": false },
+      { "text": "Null or undefined", "correct": false },
+      { "text": "Boolean values", "correct": false }
+    ],
+    "hint": "Represents impossible types."
+  },
+  {
+    "question": "How do you define an enum in TypeScript?",
+    "answers": [
+      { "text": "enum Color {Red, Green, Blue}", "correct": true },
+      { "text": "enum Color = (Red, Green, Blue);", "correct": false },
+      { "text": "enum Color: [Red, Green, Blue];", "correct": false },
+      { "text": "enum Color {Red; Green; Blue}", "correct": false }
+    ],
+    "hint": "Curly braces and commas."
+  },
+  {
+    "question": "What is type assertion in TypeScript?",
+    "answers": [
+      {
+        "text": "Telling the compiler a variable is a specific type",
+        "correct": true
+      },
+      {
+        "text": "Changing the type of a variable at runtime",
+        "correct": false
+      },
+      { "text": "Declaring variable without a type", "correct": false },
+      { "text": "Ignoring type errors", "correct": false }
+    ],
+    "hint": "Uses angle brackets or 'as' keyword."
+  },
+  {
+    "question": "How do you import a module in TypeScript?",
+    "answers": [
+      { "text": "import { Module } from './module';", "correct": true },
+      { "text": "require('./module');", "correct": false },
+      { "text": "include './module';", "correct": false },
+      { "text": "load './module';", "correct": false }
+    ],
+    "hint": "ES6 style import."
+  },
+  {
+    "question": "What is the difference between interface and type alias in TypeScript?",
+    "answers": [
+      {
+        "text": "Interfaces can be extended, type aliases cannot",
+        "correct": false
+      },
+      {
+        "text": "Type aliases can represent primitive types, interfaces cannot",
+        "correct": true
+      },
+      { "text": "Interfaces cannot declare functions", "correct": false },
+      { "text": "Type aliases cannot be generic", "correct": false }
+    ],
+    "hint": "Type aliases are more flexible."
+  },
+  {
+    "question": "Which TypeScript feature helps catch errors at compile time?",
+    "answers": [
+      { "text": "Static typing", "correct": true },
+      { "text": "Dynamic typing", "correct": false },
+      { "text": "Runtime checking", "correct": false },
+      { "text": "Type inference", "correct": false }
+    ],
+    "hint": "Helps prevent bugs before running."
+  },
+  {
+    "question": "How do you define a readonly property in an interface?",
+    "answers": [
+      { "text": "readonly propertyName: type;", "correct": true },
+      { "text": "readOnly propertyName: type;", "correct": false },
+      { "text": "const propertyName: type;", "correct": false },
+      { "text": "immutable propertyName: type;", "correct": false }
+    ],
+    "hint": "Starts with lowercase 'readonly'."
+  },
+  {
+    "question": "What is the use of 'void' type in TypeScript?",
+    "answers": [
+      {
+        "text": "Indicates a function does not return a value",
+        "correct": true
+      },
+      { "text": "Indicates any type", "correct": false },
+      { "text": "Represents a null value", "correct": false },
+      { "text": "Represents an object type", "correct": false }
+    ],
+    "hint": "Used mainly for function return types."
+  },
+  {
+    "question": "How do you declare a union type in TypeScript?",
+    "answers": [
+      { "text": "let value: string | number;", "correct": true },
+      { "text": "let value: string & number;", "correct": false },
+      { "text": "let value: (string, number);", "correct": false },
+      { "text": "let value: [string, number];", "correct": false }
+    ],
+    "hint": "Uses the pipe '|' symbol."
+  }
+]

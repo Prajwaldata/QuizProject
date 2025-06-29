@@ -1,0 +1,442 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "answers": [
+      {
+        "text": "Hyper Text Markup Language",
+        "correct": true
+      },
+      {
+        "text": "Home Tool Markup Language",
+        "correct": false
+      },
+      {
+        "text": "Hyperlinks and Text Markup Language",
+        "correct": false
+      },
+      {
+        "text": "Hyper Tool Multi Language",
+        "correct": false
+      }
+    ],
+    "hint": "It's the standard language for web pages."
+  },
+  {
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "answers": [
+      {
+        "text": "<a>",
+        "correct": true
+      },
+      {
+        "text": "<link>",
+        "correct": false
+      },
+      {
+        "text": "<href>",
+        "correct": false
+      },
+      {
+        "text": "<hyperlink>",
+        "correct": false
+      }
+    ],
+    "hint": "It starts with the letter 'a'."
+  },
+  {
+    "question": "How do you insert an image in HTML?",
+    "answers": [
+      {
+        "text": "<img src='image.jpg'>",
+        "correct": true
+      },
+      {
+        "text": "<image src='image.jpg'>",
+        "correct": false
+      },
+      {
+        "text": "<src img='image.jpg'>",
+        "correct": false
+      },
+      {
+        "text": "<picture src='image.jpg'>",
+        "correct": false
+      }
+    ],
+    "hint": "It's a self-closing tag with src attribute."
+  },
+  {
+    "question": "Which tag defines the title of the HTML document?",
+    "answers": [
+      {
+        "text": "<title>",
+        "correct": true
+      },
+      {
+        "text": "<head>",
+        "correct": false
+      },
+      {
+        "text": "<header>",
+        "correct": false
+      },
+      {
+        "text": "<meta>",
+        "correct": false
+      }
+    ],
+    "hint": "It appears inside the <head> section."
+  },
+  {
+    "question": "What is the correct HTML element for the largest heading?",
+    "answers": [
+      {
+        "text": "<h1>",
+        "correct": true
+      },
+      {
+        "text": "<head>",
+        "correct": false
+      },
+      {
+        "text": "<heading>",
+        "correct": false
+      },
+      {
+        "text": "<h6>",
+        "correct": false
+      }
+    ],
+    "hint": "It represents the top-level heading."
+  },
+  {
+    "question": "How do you create an unordered list in HTML?",
+    "answers": [
+      {
+        "text": "<ul>",
+        "correct": true
+      },
+      {
+        "text": "<ol>",
+        "correct": false
+      },
+      {
+        "text": "<li>",
+        "correct": false
+      },
+      {
+        "text": "<list>",
+        "correct": false
+      }
+    ],
+    "hint": "It stands for unordered list."
+  },
+  {
+    "question": "Which attribute is used to provide alternative text for an image?",
+    "answers": [
+      {
+        "text": "alt",
+        "correct": true
+      },
+      {
+        "text": "title",
+        "correct": false
+      },
+      {
+        "text": "src",
+        "correct": false
+      },
+      {
+        "text": "href",
+        "correct": false
+      }
+    ],
+    "hint": "This attribute helps with accessibility."
+  },
+  {
+    "question": "How do you make a checkbox in HTML?",
+    "answers": [
+      {
+        "text": "<input type='checkbox'>",
+        "correct": true
+      },
+      {
+        "text": "<checkbox>",
+        "correct": false
+      },
+      {
+        "text": "<input checkbox>",
+        "correct": false
+      },
+      {
+        "text": "<check>",
+        "correct": false
+      }
+    ],
+    "hint": "It's an input element with a specific type."
+  },
+  {
+    "question": "Which HTML element is used to define important text?",
+    "answers": [
+      {
+        "text": "<strong>",
+        "correct": true
+      },
+      {
+        "text": "<b>",
+        "correct": false
+      },
+      {
+        "text": "<important>",
+        "correct": false
+      },
+      {
+        "text": "<highlight>",
+        "correct": false
+      }
+    ],
+    "hint": "It indicates strong importance."
+  },
+  {
+    "question": "How do you add a comment in HTML?",
+    "answers": [
+      {
+        "text": "<!-- Comment -->",
+        "correct": true
+      },
+      {
+        "text": "// Comment",
+        "correct": false
+      },
+      {
+        "text": "# Comment",
+        "correct": false
+      },
+      {
+        "text": "/* Comment */",
+        "correct": false
+      }
+    ],
+    "hint": "It starts and ends with special symbols."
+  },
+  {
+    "question": "Which tag is used to create a table row?",
+    "answers": [
+      {
+        "text": "<tr>",
+        "correct": true
+      },
+      {
+        "text": "<td>",
+        "correct": false
+      },
+      {
+        "text": "<table>",
+        "correct": false
+      },
+      {
+        "text": "<th>",
+        "correct": false
+      }
+    ],
+    "hint": "It stands for table row."
+  },
+  {
+    "question": "Which attribute specifies the URL of a link?",
+    "answers": [
+      {
+        "text": "href",
+        "correct": true
+      },
+      {
+        "text": "src",
+        "correct": false
+      },
+      {
+        "text": "link",
+        "correct": false
+      },
+      {
+        "text": "url",
+        "correct": false
+      }
+    ],
+    "hint": "It stands for hypertext reference."
+  },
+  {
+    "question": "What does the `<br>` tag do?",
+    "answers": [
+      {
+        "text": "Inserts a line break",
+        "correct": true
+      },
+      {
+        "text": "Creates a bold text",
+        "correct": false
+      },
+      {
+        "text": "Starts a block",
+        "correct": false
+      },
+      {
+        "text": "Breaks a link",
+        "correct": false
+      }
+    ],
+    "hint": "It's a self-closing tag."
+  },
+  {
+    "question": "Which tag is used for defining a paragraph?",
+    "answers": [
+      {
+        "text": "<p>",
+        "correct": true
+      },
+      {
+        "text": "<para>",
+        "correct": false
+      },
+      {
+        "text": "<pg>",
+        "correct": false
+      },
+      {
+        "text": "<par>",
+        "correct": false
+      }
+    ],
+    "hint": "It stands for paragraph."
+  },
+  {
+    "question": "How do you create a drop-down list in HTML?",
+    "answers": [
+      {
+        "text": "<select>",
+        "correct": true
+      },
+      {
+        "text": "<dropdown>",
+        "correct": false
+      },
+      {
+        "text": "<list>",
+        "correct": false
+      },
+      {
+        "text": "<option>",
+        "correct": false
+      }
+    ],
+    "hint": "It's used with <option> elements."
+  },
+  {
+    "question": "Which attribute controls the size of an input field?",
+    "answers": [
+      {
+        "text": "size",
+        "correct": true
+      },
+      {
+        "text": "length",
+        "correct": false
+      },
+      {
+        "text": "width",
+        "correct": false
+      },
+      {
+        "text": "maxlength",
+        "correct": false
+      }
+    ],
+    "hint": "It's a numeric attribute."
+  },
+  {
+    "question": "What is the correct HTML element to define the footer for a document?",
+    "answers": [
+      {
+        "text": "<footer>",
+        "correct": true
+      },
+      {
+        "text": "<bottom>",
+        "correct": false
+      },
+      {
+        "text": "<section>",
+        "correct": false
+      },
+      {
+        "text": "<aside>",
+        "correct": false
+      }
+    ],
+    "hint": "It contains information about the author or copyright."
+  },
+  {
+    "question": "Which tag is used to embed a video in an HTML page?",
+    "answers": [
+      {
+        "text": "<video>",
+        "correct": true
+      },
+      {
+        "text": "<media>",
+        "correct": false
+      },
+      {
+        "text": "<movie>",
+        "correct": false
+      },
+      {
+        "text": "<embed>",
+        "correct": false
+      }
+    ],
+    "hint": "It's the HTML5 video tag."
+  },
+  {
+    "question": "Which HTML attribute is used to define inline styles?",
+    "answers": [
+      {
+        "text": "style",
+        "correct": true
+      },
+      {
+        "text": "class",
+        "correct": false
+      },
+      {
+        "text": "styles",
+        "correct": false
+      },
+      {
+        "text": "css",
+        "correct": false
+      }
+    ],
+    "hint": "It contains CSS declarations."
+  },
+  {
+    "question": "What is the purpose of the `<meta>` tag in HTML?",
+    "answers": [
+      {
+        "text": "Provides metadata about the HTML document",
+        "correct": true
+      },
+      {
+        "text": "Defines a paragraph",
+        "correct": false
+      },
+      {
+        "text": "Inserts an image",
+        "correct": false
+      },
+      {
+        "text": "Creates a hyperlink",
+        "correct": false
+      }
+    ],
+    "hint": "It goes inside the <head> element."
+  }
+]

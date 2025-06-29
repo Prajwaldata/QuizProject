@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipping Card design</title>
+    <link rel="stylesheet" href="./flip.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="app card front_face">
+            <h1>Simple Quizz</h1>
+            <div class="quizz">
+              <h2 id="question">Question Goes here!</h2>
+              <hr />
+
+              <div id="answer-buttons">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+              </div>
+              <div class="outer-div">
+                <button id="hint" class="next-btn">View hint</button>
+                <button id="next-btn">Next</button>
+              </div>
+            </div>
+          
+        </div>
+        <div class="card back-face">
+          <div id="hint-text">
+            <div id="clock-div">
+             <p id="clock-text">00</p>
+            </div>
+            <h3>
+            <b>Hint:</b> <span id="hint-text-para">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Officia, fugit voluptas odio alias soluta dicta tempore cumque
+            quas est praesentium. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Itaque quas eum asperiores!
+          </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js">
+    </script>
+  </body>
+</html>
