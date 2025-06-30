@@ -1,20 +1,22 @@
 
-      //! This is for the Hint Button Event
-      document.getElementById("hint").addEventListener(
-        "click",
-        (e) => {
-          let contain = document.getElementsByClassName("container")[0];
-          contain.classList.add("container-hover");
-          setTimeout(() => {
-            contain.classList.remove("container-hover");
-          }, 5000);
-        },
-        { once: true }
-      );
-      //Here the Hint Button Ends
+let hintbtn = document.getElementById("hint");
 
+//! This is for the Hint Button Event
+hintbtn.addEventListener(
+  "click",
+  (e) => {
 
+    hintbtn.disabled=true 
 
+    let contain = document.getElementsByClassName("container")[0];
+    contain.classList.add("container-hover");
+    setTimeout(() => {
+      contain.classList.remove("container-hover");
+    }, 5000);
+  }
+   // { once: flag }
+);
+// Here the Hint Button Ends
 //! MCQ Fetching
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -22,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 let task = async()=>{
-  let data = await fetch("./Database/html_mcq_questions.json")
+  let data = await fetch("./Database/copy.json")
   let result = await data.json();
   console.log(result)
   
@@ -49,6 +51,7 @@ function startQuizz(result)
 
 function showQuestion(){
   resetState();
+  hintbtn.disabled=false 
     console.log(questions)
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex +1;
@@ -112,13 +115,24 @@ nextBtn.addEventListener('click',()=>{
   }
 })
 
-// function showScore()
-// {
-//   resetState();
-//   questionEle.innerHTML= `You Scored ${score} out of ${questions.length} `
-//   nextBtn.innerHTML='Play Again';
-//   nextBtn.style.display = "block";
-// }
+function showScore()
+{
+  resetState();
+  hintbtn.innerHTML=`<a id="anchor" href="html home">Home Page</a>`
+  console.log(hintbtn) 
+  let anchor=document.getElementById("anchor")
+  anchor.style.textDecoration="none"
+  anchor.style.color="white"
+  anchor.togglePopover="none"
+//   hintbtn.onclick=(e)=>{
+//     console.log("We are Targeted");
+//     e.stopImmediatePropagation();
+//   }
+  hintbtn.disabled=true
+  questionEle.innerText= `You Scored ${score} out of ${questions.length} `
+  nextBtn.innerHTML='Play Again';
+  nextBtn.style.display = "block";
+}
 
 function handleNextBtn()
 {
@@ -132,5 +146,4 @@ function handleNextBtn()
     showScore();
   }
 }
-
 
