@@ -131,7 +131,8 @@ function showScore()
   hintbtn.disabled=true
   questionEle.innerText= `You Scored ${score} out of ${questions.length} `
   nextBtn.innerHTML='Play Again';
-  nextBtn.style.display = "block";
+  //! By enabling this we can show the Playagain button But its currently not working
+  // nextBtn.style.display = "block";
 }
 
 function handleNextBtn()
